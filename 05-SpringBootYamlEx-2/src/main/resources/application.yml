@@ -1,0 +1,21 @@
+#spring.application.name=05-SpringBootYamlEx-2
+my:
+  app:
+     pid: 100
+     
+     pcost: 2000
+     pcode: PEN
+     color:
+      - Red
+      - green
+      - pink
+     models:
+    
+      M1: abc
+      M2: xyz
+      M3: pqr
+      
+     vob:
+      vid: 101
+      vcode: orcle
+ 

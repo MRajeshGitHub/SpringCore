@@ -1,0 +1,21 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+my:
+  app:
+    host: gmail
+    port: 358
+    username: Rajesh
+    active: true
+    model:
+    - M1
+    - M2
+    - M3
+    - M3
+    data:
+      c1: abc
+      c2: xyz
+      c3: pqr
+    mob:
+      code: Raj
+      details: vns

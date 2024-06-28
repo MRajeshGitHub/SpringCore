@@ -1,0 +1,35 @@
+my:
+  app:
+     db:
+       driver: Oracle
+       url: jdbc-oracle
+       
+       
+---
+my:
+  app:
+     db:
+       driver: Oracle-Thin-QA
+       url: jdbc-oracle-Sun-QA-Tets
+       
+spring:
+  config:
+    activate:
+      on-profile:
+      - qa
+      - prod
+      
+---
+my:
+  app:
+     db:
+       driver: Oracle-Thin-UAT
+       url: jdbc-oracle-Sun-QA-Tets
+       
+spring:
+  config:
+    activate:
+      on-profile: uat
+      
+      
+       

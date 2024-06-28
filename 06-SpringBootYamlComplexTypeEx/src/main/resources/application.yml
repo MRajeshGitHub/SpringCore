@@ -1,0 +1,19 @@
+my:
+  book:
+    bname: Ajay
+    versions:
+       a1: qq
+       a2: aa
+       a3: ee
+    author:
+     - abc
+     - xyz
+     - pqr
+    pob:
+       pid: 101
+       pcode: abc
+       active: false
+      
+    
+     
+      
